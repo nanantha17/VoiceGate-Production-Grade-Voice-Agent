@@ -1,0 +1,131 @@
+{
+  "averages": {
+    "bleu_1": 0.06671250000000001,
+    "bleu_4": 0.0088125,
+    "rouge_1": 0.09558749999999999,
+    "rouge_2": 0.0421375,
+    "rouge_L": 0.066175
+  },
+  "per_question": [
+    {
+      "question": "What is the main contribution of the transformer?",
+      "reference": "The transformer is the first transduction model relying entirely on self-attention to compute representations without using sequence-aligned RNNs or convolution.",
+      "hypothesis": "different components",
+      "bleu": {
+        "bleu_1": 0,
+        "bleu_2": 0,
+        "bleu_4": 0
+      },
+      "rouge": {
+        "rouge1_f1": 0.0,
+        "rouge2_f1": 0.0,
+        "rougeL_f1": 0.0
+      }
+    },
+    {
+      "question": "What is multi-head attention?",
+      "reference": "Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions using h parallel attention heads.",
+      "hypothesis": "multi-head attention consists of several attention layers running in parallel.",
+      "bleu": {
+        "bleu_1": 0.1527,
+        "bleu_2": 0.0716,
+        "bleu_4": 0.0168
+      },
+      "rouge": {
+        "rouge1_f1": 0.2941,
+        "rouge2_f1": 0.125,
+        "rougeL_f1": 0.2353
+      }
+    },
+    {
+      "question": "What are the three types of attention in the transformer?",
+      "reference": "The transformer uses encoder-decoder attention, encoder self-attention, and decoder self-attention.",
+      "hypothesis": "multi-head",
+      "bleu": {
+        "bleu_1": 0,
+        "bleu_2": 0,
+        "bleu_4": 0
+      },
+      "rouge": {
+        "rouge1_f1": 0.0,
+        "rouge2_f1": 0.0,
+        "rougeL_f1": 0.0
+      }
+    },
+    {
+      "question": "What is the purpose of positional encoding?",
+      "reference": "Positional encodings inject information about the relative or absolute position of tokens since the model contains no recurrence and no convolution.",
+      "hypothesis": "to be summed",
+      "bleu": {
+        "bleu_1": 0,
+        "bleu_2": 0,
+        "bleu_4": 0
+      },
+      "rouge": {
+        "rouge1_f1": 0.0,
+        "rouge2_f1": 0.0,
+        "rougeL_f1": 0.0
+      }
+    },
+    {
+      "question": "What is scaled dot-product attention?",
+      "reference": "Scaled dot-product attention computes dot products of queries with all keys, divides by the square root of the key dimension, and applies softmax to get weights on the values.",
+      "hypothesis": "We call our particular attention \"Scaled Dot-Product Attention\" (Figure 2). The input consists of queries and keys of dimensiondk, and values of dimensiondv. We compute the dot products of the Scaled Dot-Product Attention Multi-Head Attention",
+      "bleu": {
+        "bleu_1": 0.381,
+        "bleu_2": 0.255,
+        "bleu_4": 0.0537
+      },
+      "rouge": {
+        "rouge1_f1": 0.4706,
+        "rouge2_f1": 0.2121,
+        "rougeL_f1": 0.2941
+      }
+    },
+    {
+      "question": "What BLEU score did the transformer achieve on English to German translation?",
+      "reference": "The big transformer achieved 28.4 BLEU on WMT 2014 English to German translation, outperforming previously reported models including ensembles.",
+      "hypothesis": "41.0",
+      "bleu": {
+        "bleu_1": 0,
+        "bleu_2": 0,
+        "bleu_4": 0
+      },
+      "rouge": {
+        "rouge1_f1": 0.0,
+        "rouge2_f1": 0.0,
+        "rougeL_f1": 0.0
+      }
+    },
+    {
+      "question": "Why does the transformer use self-attention instead of recurrence?",
+      "reference": "Self-attention connects all positions with a constant number of operations while recurrent layers require O of n sequential operations, making self-attention faster when sequence length is smaller than representation dimensionality.",
+      "hypothesis": "to draw global dependencies between input and output",
+      "bleu": {
+        "bleu_1": 0,
+        "bleu_2": 0,
+        "bleu_4": 0
+      },
+      "rouge": {
+        "rouge1_f1": 0.0,
+        "rouge2_f1": 0.0,
+        "rougeL_f1": 0.0
+      }
+    },
+    {
+      "question": "What optimizer was used to train the transformer?",
+      "reference": "The Adam optimizer was used with beta1 of 0.9, beta2 of 0.98, and epsilon of 10 to the negative 9 with a warmup learning rate schedule.",
+      "hypothesis": "label smoothing",
+      "bleu": {
+        "bleu_1": 0,
+        "bleu_2": 0,
+        "bleu_4": 0
+      },
+      "rouge": {
+        "rouge1_f1": 0.0,
+        "rouge2_f1": 0.0,
+        "rougeL_f1": 0.0
+      }
+    }
+  ]
+}
