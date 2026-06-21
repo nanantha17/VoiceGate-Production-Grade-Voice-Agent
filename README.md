@@ -1,4 +1,4 @@
-# RAG Conversational AI Agent
+# VoiceGate-Production-Grade-Voice-Agent
 ## Voice-Enabled Chatbot with Full Evaluation Pipeline
 
 End-to-end RAG system with STT/TTS voice pipeline, ChromaDB vector retrieval,
